@@ -1,0 +1,331 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: Montserrat;
+	font-style: normal;
+}
+html,body{
+	height: 100%;
+
+}
+p{
+	margin-bottom: 1em;
+}
+.header{
+	position: relative;
+}
+
+.main-background{
+	width: 100%;
+	top:0;
+	z-index: -1;
+	position: absolute;
+	
+	height: 100%;
+	background: url(https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.main-background::before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.7);
+}
+.title-header {
+	font-size:0.875em;
+	line-height: 2em;
+	color: #A0A0A4;}
+
+.text-90deg {
+	display: flex;
+	transform: rotate(-90deg);
+	padding: 0;
+	z-index: 2;
+	flex-direction: column;
+	align-items: center;
+	height: 75px;
+
+	
+}
+.text-90deg span{
+	width: 350%;
+	text-align: center;
+
+}
+.main-white-title{
+	font-weight: 300;
+	font-size: 2.125em;
+	line-height: 1.5em;
+	color: #FFFFFF;
+}
+.main-header {bottom: 10%; position: absolute;}
+.map-look {display: flex; justify-content: space-between; align-items: center; }
+.buttons-map { bottom: 0;}
+.description-text{
+	font-weight: 300;
+	font-size: 1em;
+	line-height: 180%;
+	letter-spacing: 0.05em;
+	color: #333335;
+}
+.title-section{
+	font-size: 1.500em;
+	line-height: 1.813em;
+	color: #131316;
+}
+.left-spacing{
+	margin-left: 4.25%;
+}
+.no-decorate{
+	text-decoration: none;
+	cursor: pointer;
+}
+.no-decorate:hover{
+	text-decoration: none;
+	color: auto;
+}
+
+.t-s-1{margin-bottom:  4%;}
+.section-title-small {
+	font-size: 1em;
+	line-height: 1.250em;
+	color: #0C141B;
+}
+.sect-text {
+	font-weight: 300;
+	font-size: 1em;
+	line-height: 180%;
+	color: #0C141B;}
+.fixed-block{
+	position:fixed;
+	top:0;
+	height: 100%;
+
+}
+
+.section-first{background-color: #E5E5E5;}
+.section-second { overflow: hidden;}
+.hotel-img{
+	
+}
+.info-about-room{
+	display: flex;
+	flex-direction: column;
+}
+.about-room{overflow: hidden; width: 50%;}
+.room-row{display: flex; align-items: center;flex-wrap: nowrap;}
+.call-help {}
+.open-form {
+	text-align: center;
+	padding: 0.750em 1.8em;
+	font-weight: 300;
+	font-size: 0.875em;
+	line-height: 17px;
+	background: #0C141B;
+	border: 1px solid #393939;
+	box-sizing: border-box;
+	color: #FFFFFF;}
+.text-20fs{font-weight: 300;font-size: 20px;line-height: 24px;color: #4F4F4F;}
+.section-third {
+	background-image: url(../images/black-image.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.wrapper {padding: 10% 0;}
+.white-small-text {
+	font-size: 1em;
+	line-height: 1.250em;
+	color: #FFFFFF;}
+.white-big-text {
+	font-size: 1.500em;
+	line-height: 1.813em;
+	color: #FFFFFF;}
+.something-inside {}
+.somethig-content {margin-top: 6.5%;}
+.title-sect-3 {
+	font-size: 1.125em;
+	line-height: 1.375em;
+	color: #FFFFFF;}
+
+.offset-1-5{
+	margin-left: 12.6% !important;
+}
+.breakfast-i{width: 15%;}
+.room-description{
+	font-size: 0.875em;
+	line-height: 1.313em;
+	color: #000000;
+}
+.link-room{color: #000000;}
+.content-section-2{
+	overflow: hidden;
+}
+.info-about-room{overflow: hidden;}
+.section-fourth{
+	overflow: hidden;
+	font-family: Open Sans;
+}
+.title-16fs{
+	font-size: 1em;
+	line-height: 1.375em;
+	color: #0C141B;
+}
+.section-fourth-content {}
+.excursions {position: relative;}
+.info-about-excursions {
+	z-index: 10000;
+	position: absolute;
+	top:30%;
+	width: 120%;
+	left: 30%;
+	background-color: #ffffff;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25), -2px -2px 4px rgba(0, 0, 0, 0.25);
+}
+.back-i{z-index: 3; width: 120% !important; }
+.front-i{z-index: 4;
+	position: absolute;
+	top:15%;
+	left: -15%;
+	width: 120% !important;}
+.inblock-title {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.125em;
+	line-height: 1.375em;
+	z-index: 105;
+	color: #0C141B;}
+.section-fifth-content{position: relative;}.section-fifth{position: relative;}
+.grey-c{
+	background-color: #E5E5E5;
+}
+.distance{
+	position: absolute;
+	background: #FFFFFF;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25), -2px -2px 4px rgba(0, 0, 0, 0.25);
+	z-index: 5;
+	top:85%;
+	display: flex;
+	justify-content: space-between;
+}
+.section-sixth{
+	overflow: hidden;
+}
+.owl-carousel{overflow: hidden;}
+.on-picture{
+	z-index:2;
+	top:55%;
+	position: absolute;
+}
+.blog-i{
+	width: 95%;
+}
+.right-content{
+	background: #FFFFFF;
+}
+.input-textarea{
+	 resize: none;
+	 height: 10em;
+}
+.send-message{
+	background: #0C141B;
+	border: 1px solid #393939;
+	box-sizing: border-box;
+	
+	color: white;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 0.875em;
+	line-height: 1.063em;
+}
+.image-row{
+	overflow: hidden;
+}
+.offset-padding-left{
+	padding-left: 4.333%;
+	margin-right: 0 !important;
+}
+.offset-right{padding-right: 8.33333%; }
+
+.no-mr{margin-right: 0 !important;}
+.no-ml{margin-left: 0 !important;}
+.slide{padding: 0;}
+
+@media(max-width: 1200px){
+	.distance{
+		position: relative;
+		top:5%;
+		z-index: -2;
+	}
+	.room-row{
+		align-items: flex-start;
+		flex-direction: column;
+	}
+}
+@media(max-width: 992px ){
+	.hotel-img{
+		width: 100%;
+		
+	}
+	
+}
+@media(max-width: 660px ){
+	body{
+		font-size: 0.7em;
+	}
+	.text-90deg{
+		height: auto;
+	}
+	.blog-i{
+		width: 80% !important;
+	}
+	.front-i{
+		position: relative;
+		left:0;
+	}
+	.back-i{
+		display: none !important;
+	}
+	.info-about-excursions{
+		margin-top: -30%;
+		position: relative;
+		
+		left:0;
+	}
+	.excursions{
+		width: 50%;
+		margin-left: 4.333% !important;
+		
+	}
+}
+@media(max-width: 576px){
+	.offset-right{
+		padding-right: 0;
+	}
+}
+@media(max-width: 468px ){
+	body{
+		font-size: 0.5em;
+	}
+	.hide{
+		display: none;
+	}
+	.hotel-img{
+		width: 90%;
+	}
+	.blog-i{
+		width: 58% !important;
+	}
+}
+@media(max-width: 360px){
+	.excursions{
+		width: 40%;
+		margin-left: 4.333% !important;
+		
+	}
+}

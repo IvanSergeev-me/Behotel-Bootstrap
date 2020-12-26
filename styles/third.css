@@ -1,0 +1,197 @@
+.main-header-third{
+	position: absolute;
+	bottom: 30%;
+	width: 100%;
+}
+.header{
+	height: 70%;
+}
+.calendar{
+	
+}
+.bh_booking_form {
+	position: relative;
+
+	height: 100%;
+	background: #fff;
+	
+}
+
+.bh_booking_form form .input_holder {
+
+}
+
+.bh_booking_form form .input_holder label {
+	font-size: .9em;
+	display: block;
+}
+
+.bh_booking_form form .input_holder input {
+	width: 100%;
+	padding: .9em;
+	font-size: 1em;
+	font-weight: 300;
+}
+
+.bh_booking_form form .input_holder select {
+	width: 100%;
+	padding: .9em;
+	font-size: 1em;
+	font-weight: 300;
+}
+
+.bh_booking_form form .input_holder input[type="submit"] {
+	background: #0C141B;
+	color: #fff;
+	border: 0;
+	outline: none;
+	padding: 1.4em 1em;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: .875em;
+}
+.bh-hotel-img{
+	
+}
+.Book-now{
+	background: #0C141B;
+	color: #fff;
+	border: 0;
+	outline: none;
+	padding: 1.4em 2em;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: .875em;
+	width: 15em;
+}
+.Book-now:hover{
+	text-decoration: none;
+	color:white;
+}
+.go-comment{
+	background: #0C141B;
+	border: 1px solid #393939;
+	box-sizing: border-box;
+	color: white;
+	width: 100%;
+	padding: 0.5em 0.8em;
+	
+}
+.block-right{
+	padding-left: 4.333%
+}
+.go-comment:hover{
+	color: white;
+}
+.go-top{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 0.875em;
+	line-height: 1.063em;
+	text-align: center;
+	color: #0C141B;
+	}
+.block-right{
+	margin-left: 12%;
+}
+.heading-2{
+	font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 1.500em;
+line-height: 2.688em;
+color: #000000;
+}
+.heading-h3{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.250em;
+	line-height: 2em;
+	color: #000000;
+}
+.b-right{
+	background:transparent;
+	border: 0;
+	outline: none;
+}
+.quote{
+	font-family: Montserrat;
+	font-style: italic;
+	font-weight: 300;
+	position: relative;
+	line-height: 1.813em;
+
+}
+.quote::before{
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 2px;
+	background-color: black;
+	left: 5%;
+}
+.list{
+	padding-left:6.4444%;
+}
+.list li{
+	margin-top: 1%;
+}
+.big-grey-title{
+	font-weight: 300;
+	font-size: 1.250em;
+	line-height: 1.500em;
+	color: #4F4F4F;
+	}
+.padding-6{
+	padding-left: 6.4444%;
+}
+.calendar-padding{
+	padding-left: 0;
+}
+@media(max-width: 1200px){
+	.go-comment{
+		width: 30%;
+		text-align: center;
+
+	}
+	.block-right{
+		padding-left:1.56% !important;
+		margin-left: 0;
+	}
+	.calendar-padding{
+		padding-left: 4.3333%;
+	}
+	
+}
+@media(max-width: 992px){
+	.padding-6{
+		padding-left: 0;
+	}
+	.input_holder{
+		font-size: 0.6em;
+	}
+}
+@media(max-width: 768px){
+	.quote{
+		left:5%;
+	}
+	.quote::before{
+		left: -1%;
+	}
+	.block-right{
+		padding-left:0 !important;
+		margin-left: 0;
+	}
+}
+@media(max-width: 576px){
+	.input_holder{
+		font-size: 0.3em;
+		
+		width: 100%;
+	}
+	.in-sb{
+		padding: 3em 3em !important;
+	}
+}
