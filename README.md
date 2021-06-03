@@ -1,3 +1,3 @@
 # Behotel-Bootstrap
 ## Как выглядит?
-![](https://vk.com/doc145022292_599994862?hash=22fca9c113aed0f0a2&dl=fb738010b554c0dfb3)
+![](https://sun9-19.userapi.com/impg/UIkuEL80sEW66wwL7xo8Xv098AB3SWdvhD3ejg/GJaprmBuLJg.jpg?size=62x1080&quality=96&sign=26c5f096d32a28e6696480bdd3b229ab&type=album)
